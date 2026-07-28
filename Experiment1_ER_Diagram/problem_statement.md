@@ -6,7 +6,6 @@ To understand and apply ER modeling concepts by creating ER diagrams for real-wo
 ## Purpose
 Gain hands-on experience in designing ER diagrams that represent database structure including entities, relationships, attributes, and constraints.
 
----
 
 # Scenario A: City Fitness Club Management
 
@@ -34,7 +33,7 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 | Membership | **PK:** Membership_ID, **FK:** Member_ID, Program_ID, Join_Date, Status                     | Records member enrollment in programs.               |
 | Program    | **PK:** Program_ID, Program_Name, Duration, Schedule, Fees                                  | Stores fitness program details.                      |
 | Trainer    | **PK:** Trainer_ID, Trainer_Name, Experience, Phone_No, Specialization                      | Stores trainer information.                          |
-| Session    | **PK:** Session_ID, **FK:** Member_ID, Trainer_ID, Session_Date, Session_Time, Attendance_Status | Records personal training sessions & attendance.|
+| Session    | **PK:** Session_ID, **FK:** Member_ID, Trainer_ID, Session_Date & Time, Attendance_Status   | Records personal training sessions & attendance.|
 | Payment    | **PK:** Payment_ID, **FK:** Member_ID, Payment_Date, Amount, Payment_Method, Balance_Amount | Stores membership and session payment details.       |
 
 
@@ -73,7 +72,7 @@ The Central Library wants to manage book lending and cultural events.
 - Overdue fines apply for late returns.
 
 ### ER Diagram:
-![Uploading WhatsApp Image 2026-07-27 at 21.48.21.jpeg…]()
+<img width="1600" height="825" alt="WhatsApp Image 2026-07-27 at 21 48 21" src="https://github.com/user-attachments/assets/3c72d884-3511-4128-9eae-383b35a41a07" />
 
 
 ### Entities and Attributes
@@ -121,8 +120,8 @@ A popular restaurant wants to manage reservations, orders, and billing.
 - Waiters assigned to serve reservations.
 
 ### ER Diagram:
-*Paste or attach your diagram here*  
-![ER Diagram](er_diagram_restaurant.png)
+<img width="1600" height="837" alt="WhatsApp Image 2026-07-27 at 21 51 15" src="https://github.com/user-attachments/assets/1d13f119-7082-4ffa-99b1-8246ac743073" />
+
 
 ### Entities and Attributes
 
@@ -152,13 +151,3 @@ A popular restaurant wants to manage reservations, orders, and billing.
 - One reservation is assigned to one table.
 - Grand total is calculated from food charges and service charges.
 - Each reservation generates only one bill.
-
----
-
-## Instructions for Students
-
-1. Complete **all three scenarios** (A, B, C).  
-2. Identify entities, relationships, and attributes for each.  
-3. Draw ER diagrams using **draw.io / diagrams.net** or hand-drawn & scanned.  
-4. Fill in all tables and assumptions for each scenario.  
-5. Export the completed Markdown (with diagrams) as **a single PDF**
