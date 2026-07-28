@@ -55,7 +55,6 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 - Payments include membership fees and personal training charges.
 - Trainers can teach multiple programs.
 
----
 
 
 # Scenario B: City Library Event & Book Lending System
@@ -104,7 +103,6 @@ The Central Library wants to manage book lending and cultural events.
 - Each event is conducted in one room.
 - Members can register for multiple events.
   
----
 
 # Scenario C: Restaurant Table Reservation & Ordering
 
