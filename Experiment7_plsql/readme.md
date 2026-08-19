@@ -56,7 +56,6 @@ END;
 /
 ```
 
-**Result:**
 <img width="559" height="683" alt="image" src="https://github.com/user-attachments/assets/d6fd0431-8d48-43b4-b5d1-5b18046b73a2" />
 
 ---
@@ -90,7 +89,6 @@ END;
 /
 ```
 
-**Result:**
 <img width="626" height="654" alt="image" src="https://github.com/user-attachments/assets/e46ca146-4ce8-45ba-9ced-9cff48a71d54" />
 
 ---
@@ -129,7 +127,6 @@ END;
 /
 ```
 
-**Result:**
 <img width="474" height="755" alt="image" src="https://github.com/user-attachments/assets/e353b90e-11c9-4ae2-bc66-f8118404eb2b" />
 
 
@@ -166,7 +163,6 @@ END;
 /
 ```
 
-**Result:**
 <img width="532" height="686" alt="image" src="https://github.com/user-attachments/assets/cbaa78db-58c3-4a57-a4c3-cf81b535a355" />
 
 ---
@@ -203,7 +199,6 @@ END;
 /
 ```
 
-**Result:**
 <img width="545" height="707" alt="image" src="https://github.com/user-attachments/assets/29f0fe5a-81b9-4909-aa9f-cb695c6a96d0" />
 
 
