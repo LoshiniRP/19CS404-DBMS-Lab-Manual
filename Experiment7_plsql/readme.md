@@ -55,6 +55,8 @@ BEGIN
 END;
 /
 ```
+
+**Result:**
 <img width="559" height="683" alt="image" src="https://github.com/user-attachments/assets/d6fd0431-8d48-43b4-b5d1-5b18046b73a2" />
 
 ---
@@ -88,6 +90,7 @@ END;
 /
 ```
 
+**Result:**
 <img width="626" height="654" alt="image" src="https://github.com/user-attachments/assets/e46ca146-4ce8-45ba-9ced-9cff48a71d54" />
 
 ---
@@ -104,6 +107,32 @@ END;
 n = 7  
 Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 
+**Program:**  
+
+```
+DECLARE
+      n NUMBER := 7;
+      a NUMBER := 0;
+      b NUMBER := 1;
+      c NUMBER;
+      i NUMBER := 1;
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Fibonacci sequence:');
+    WHILE i <= n LOOP
+        DBMS_OUTPUT.PUT_LINE(a || ' ');
+        c := a + b;
+        a := b;
+        b := c;
+        i := i + 1;
+    END LOOP;
+END;
+/
+```
+
+**Result:**
+<img width="474" height="755" alt="image" src="https://github.com/user-attachments/assets/e353b90e-11c9-4ae2-bc66-f8118404eb2b" />
+
+
 ---
 
 ## 4. Write a PL/SQL Program to display the number in Reverse Order
@@ -117,6 +146,29 @@ Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8
 n = 1535  
 Reversed number is 5351
 
+**Program:** 
+
+```
+DECLARE
+    n NUMBER := 1535;
+    rem NUMBER;
+    rev NUMBER := 0;
+    temp NUMBER;
+BEGIN
+    temp := n;
+    WHILE temp > 0 LOOP
+        rem := MOD(temp, 10);
+        rev := rev * 10 + rem;
+        temp := FLOOR(temp / 10);
+    END LOOP;
+    DBMS_OUTPUT.PUT_LINE('Reversed number is: ' || rev);
+END;
+/
+```
+
+**Result:**
+<img width="532" height="686" alt="image" src="https://github.com/user-attachments/assets/cbaa78db-58c3-4a57-a4c3-cf81b535a355" />
+
 ---
 
 ## 5. Write a PL/SQL program to find the largest of three numbers
@@ -129,6 +181,31 @@ Reversed number is 5351
 **Expected Output:**  
 a = 10, b = 9, c = 15  
 Largest of three number is 15
+
+**Program:** 
+
+```
+DECLARE
+    a NUMBER := 10;
+    b NUMBER := 9;
+    c NUMBER := 15;
+    largest NUMBER;
+BEGIN
+    IF a > b AND a > c THEN
+        largest := a;
+    ELSIF b > c THEN
+        largest := b;
+    ELSE
+        largest := c;
+    END IF;
+    DBMS_OUTPUT.PUT_LINE('Largest number is: ' || largest);
+END;
+/
+```
+
+**Result:**
+<img width="545" height="707" alt="image" src="https://github.com/user-attachments/assets/29f0fe5a-81b9-4909-aa9f-cb695c6a96d0" />
+
 
 ## RESULT
 Thus, the PL/SQL programs using variables, conditionals, and loops were executed successfully.
